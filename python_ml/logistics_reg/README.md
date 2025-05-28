@@ -1,40 +1,39 @@
- Employee Retention Analysis - HR Analytics
+📘 Machine Learning Mini Projects – Digit & Flower Recognizers
+This repository contains two beginner-friendly ML projects using Logistic Regression and Scikit-learn:
 
-This project performs exploratory data analysis and builds a Logistic Regression model to predict employee retention based on HR data.
+1️⃣ Digit Recognizer
+Dataset: sklearn.datasets.load_digits
 
- Dataset
+Goal: Classify handwritten digits (0-9) using Logistic Regression.
 
-Dataset Source: [Kaggle - HR Analytics](https://www.kaggle.com/giripujar/hr-analytics)  
-File used: `HR.csv`
+Features:
 
- Tasks Performed
+Visualize digit images
 
-1. Exploratory Data Analysis (EDA)  
-   - Checked the correlation between `salary` and employee retention.
-   - Analyzed the impact of `Department` on employee retention.
+Train/test split (80/20)
 
-2. Visualizations
-   - Bar chart showing the relation between salary and employee attrition.
-   - Bar chart showing the relation between department and employee attrition.
+Accuracy calculation
 
-3. Model Building
-   - Used `Logistic Regression` to predict if an employee will leave the company.
-   - Selected features: `satisfaction_level`, `average_montly_hours`, `promotion_last_5years`, and `salary`.
-   - One-hot encoded the `salary` column.
+Confusion matrix heatmap
 
-4. Model Evaluation
-   - Split the dataset into training and testing sets (80:20 split).
-   - Evaluated the model using `.score()` method for accuracy.
+2️⃣ Iris Flower Classifier
+Dataset: sklearn.datasets.load_iris
 
- Output
+Goal: Classify iris flowers as Setosa, Versicolour, or Virginica based on 4 flower features.
 
-The model was trained and tested successfully.  
-Accuracy score indicates how well the model predicts employee retention based on selected variables.
+Features:
 
----
+Train/test split (80/20)
 
- How to Run
+Accuracy calculation
 
-```bash
-pip install pandas matplotlib scikit-learn
-python hr_task.py
+Confusion matrix visualization
+
+🛠️ Common Tools Used
+LogisticRegression from sklearn.linear_model
+
+train_test_split from sklearn.model_selection
+
+confusion_matrix, ConfusionMatrixDisplay
+
+matplotlib, seaborn for plots
