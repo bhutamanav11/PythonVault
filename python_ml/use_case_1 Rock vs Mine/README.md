@@ -1,10 +1,3 @@
-Here’s your updated professional **README.md** with:
-
-* ✅ Python badges
-* ✅ Auto-generated `requirements.txt`
-* ✅ Everything neatly formatted
-
----
 
 ## 🪨 Rock vs Mine Predictor using Logistic Regression
 
