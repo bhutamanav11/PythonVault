@@ -132,7 +132,7 @@ This project is open-sourced under the [MIT License](LICENSE).
 
 ### 🙋‍♂️ Author
 
-* **Name:** Manav
+* **Name:** Manav Bhuta
 * **Education:** Computer Engineering, Mumbai
 * **LinkedIn:** \[www.linkedin.com/in/manav-bhuta]
 
