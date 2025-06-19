@@ -4,7 +4,7 @@
 This repository contains my hands-on practice and learning from the **Codedex GenAI NLP Tutorial**. I explored core Natural Language Processing (NLP) concepts using Python libraries like **NLTK**, **TextBlob**, **Autocorrect**, and more.
 
 ---
-
+```
 ## ✅ Topics Covered
 
 ### 1. **NLTK Basics**
@@ -33,7 +33,7 @@ tokens = word_tokenize("this is a sample sentence")
 ```python
 from nltk import ngrams
 list(ngrams(tokens, 2))  # Bigrams
-```
+
 
 ---
 
