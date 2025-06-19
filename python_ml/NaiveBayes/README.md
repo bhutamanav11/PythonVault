@@ -1,7 +1,3 @@
-Sure Manav! Here’s the full plain-text version (no markdown symbols) with emojis, styled exactly like a clean summary of your practice:
-
-⸻
-
 🧠 NLP Practice Summary – Codedex GenAI
 This is a summary of all the hands-on tasks I completed during the Codedex GenAI NLP tutorial. I explored core NLP libraries and techniques using Python.
 
