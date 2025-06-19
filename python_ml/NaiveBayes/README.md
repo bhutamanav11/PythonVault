@@ -1,101 +1,69 @@
-````markdown
-# 🧠 NLP Practice Summary – Codedex GenAI
+Sure Manav! Here’s the full plain-text version (no markdown symbols) with emojis, styled exactly like a clean summary of your practice:
 
-This repository contains my hands-on practice and learning from the **Codedex GenAI NLP Tutorial**. I explored core Natural Language Processing (NLP) concepts using Python libraries like **NLTK**, **TextBlob**, **Autocorrect**, and more.
+⸻
 
----
-```
-## ✅ Topics Covered
+🧠 NLP Practice Summary – Codedex GenAI
+This is a summary of all the hands-on tasks I completed during the Codedex GenAI NLP tutorial. I explored core NLP libraries and techniques using Python.
 
-### 1. **NLTK Basics**
-- Installed and used `nltk` library
-- Downloaded required data packages (`punkt`, etc.)
-- Learned how to preprocess and clean text
+⸻
 
----
+✅ Topics Covered
+	1.	NLTK Basics
 
-### 2. **Tokenization**
-- Used `nltk.word_tokenize()` to split text into words
-- Applied sentence tokenization and word tokenization
+	•	Installed and used nltk library
+	•	Downloaded required data packages like ‘punkt’
+	•	Learned how to preprocess and clean raw text
 
-```python
-from nltk.tokenize import word_tokenize
-tokens = word_tokenize("this is a sample sentence")
-````
+⸻
 
----
+	2.	Tokenization
 
-### 3. **N-Grams**
+	•	Used nltk.word_tokenize() to split sentences into words
+	•	Applied both sentence and word level tokenization
+	•	Practiced on multiple text examples
 
-* Generated bigrams and trigrams using NLTK
-* Understood how N-grams can be used in language modeling
+⸻
 
-```python
-from nltk import ngrams
-list(ngrams(tokens, 2))  # Bigrams
+	3.	N-Grams
 
+	•	Generated bigrams and trigrams using NLTK
+	•	Understood how N-grams are used in language modeling and text analysis
 
----
+⸻
 
-### 4. **Naive Bayes Text Classification**
+	4.	Naive Bayes Text Classification
 
-* Used `CountVectorizer` to vectorize text
-* Built classifiers using `MultinomialNB`
-* Predicted categories like **tech vs non-tech** and **positive vs negative**
-* Measured accuracy with `accuracy_score`
+	•	Used CountVectorizer to convert text into numeric features
+	•	Built Naive Bayes classifier using MultinomialNB
+	•	Classified text into categories like tech/non-tech and positive/negative
+	•	Measured model accuracy using accuracy_score
 
----
+⸻
 
-### 5. **Translation**
+	5.	Translation
 
-* Used the `translate` library to convert text into other languages
-* Tried out Hindi (`hi`) and Gujarati (`gu`) translations
+	•	Translated English text into Hindi and Gujarati
+	•	Used the translate library to experiment with multilingual outputs
 
-```python
-from translate import Translator
-Translator(to_lang="hi").translate("hello world")
-```
+⸻
 
----
+	6.	Text Correction with TextBlob
 
-### 6. **Text Correction with TextBlob**
+	•	Used TextBlob to auto-correct spelling and basic grammar issues
+	•	Tested on sentences with typos and got accurate corrections
 
-* Corrected grammar and spelling using `TextBlob`
+⸻
 
-```python
-from textblob import TextBlob
-TextBlob("i am in leov with competers").correct()
-```
+	7.	Autocorrect Library
 
----
+	•	Used the autocorrect library to fix spelling errors
+	•	Applied it on noisy or intentionally misspelled sentences
 
-### 7. **Autocorrect Library**
+⸻
 
-* Fixed spelling errors using the `autocorrect` package
+🚀 Overall, I learned the foundations of Natural Language Processing with real code and hands-on experimentation.
+This practice helped me build intuition for how text is tokenized, modeled, classified, translated, and corrected — which are all important for NLP-based applications.
 
-```python
-from autocorrect import Speller
-spell = Speller(lang='en')
-spell("this moovie is grreat")
-```
+⸻
 
----
-
-## 📌 Summary
-
-Throughout this GenAI-powered Codedex NLP module, I learned:
-
-* Core NLP building blocks
-* How to preprocess, clean, and analyze text
-* How to build basic ML models for classification
-* Real-world applications of NLP like translation and spell correction
-
----
-
-### 👨‍💻 Author
-
-**Manav Bhuta**
-Computer Engineering Student
-Mumbai, India
-
-```
+Let me know if you’d like a GitHub description too or help turning this into a portfolio project ✨
