@@ -1,8 +1,12 @@
-```
-# 🪓 Word Guesser CLI Game
+Absolutely! Here's your updated `README.md` with your details:
 
-🎮 A fun terminal-based Hangman game written in Python!  
-Guess the secret word one letter at a time while avoiding the hangman drawing. With multiple difficulties, colored feedback, and replay options — it’s the OG game with a Gen Z glow-up.
+---
+
+```
+# 🪓 Hangman CLI Game – `word_guesser.py`
+
+🎮 A fun terminal-based Hangman-style word guessing game made with Python!  
+Guess the secret word one letter at a time before the hangman is complete. Packed with colorful output, difficulty levels, and a clean terminal vibe.
 
 ---
 
@@ -10,35 +14,35 @@ Guess the secret word one letter at a time while avoiding the hangman drawing. W
 
 - The game picks a random 5-letter word.
 - You choose your **difficulty**:
-  - Easy: 8 attempts
-  - Medium: 6 attempts (default)
-  - Hard: 4 attempts
-- Guess letters one at a time.
-- You lose an attempt on every wrong guess.
-- The hangman stick figure updates with each wrong attempt.
-- You win by guessing the full word before the drawing completes.
+  - Easy → 8 attempts
+  - Medium → 6 attempts (default)
+  - Hard → 4 attempts
+- Guess letters one by one.
+- Wrong guesses draw the stick figure step by step.
+- Win by guessing the entire word before you're out of attempts.
 
 ---
 
 ## 🎯 Features
 
 ✅ 150+ Word Bank  
-✅ Difficulty Levels (Easy, Medium, Hard)  
-✅ Hangman Stick Figure Drawing  
+✅ Easy/Medium/Hard difficulty modes  
+✅ Stick figure hangman animation  
 ✅ Color-coded terminal output  
+✅ Tracks used letters  
 ✅ Replay without restarting  
-✅ Used letter tracker  
-✅ Input validation and feedback
+✅ Full input validation
 
 ---
 
-## 🛠️ Setup
+## 🛠️ Setup & Run
 
 1. **Clone the repo**:
 ```
 
-git clone [https://github.com/yourusername/hangman-cli.git](https://github.com/bhutamanav11/word_guesser.git)
-cd word_guesser
+git clone [https://github.com/bhutamanav11/PythonVault.git](https://github.com/bhutamanav11/PythonVault)
+cd Terminal Game
+cd word_guesser.py
 
 ```
 
@@ -49,7 +53,7 @@ python word_guesser.py
 
 ```
 
-✅ No extra libraries needed – pure Python!
+✅ No extra dependencies needed – works out of the box with Python 3.x.
 
 ---
 
@@ -58,14 +62,14 @@ python word_guesser.py
 ```
 
 hangman-cli/
-├── word_guesser.py     # Main game logic
-├── README.md      # You're reading it ;)
+├── word_guesser.py   # Main game file
+├── README.md         # Project overview and usage guide
 
 ```
 
 ---
 
-## 📸 Sneak Peek
+## 📸 Terminal Preview
 
 ```
 
@@ -90,18 +94,19 @@ Guess a letter: e
 
 ---
 
-## 🚀 Future Upgrades (PRs Welcome!)
+## 🚀 Future Ideas
 
-- Word hints or categories
-- Full word guessing (Wordle-style)
-- Scoreboard / win streak tracker
-- Web version using Flask or React
+- Word category hints
+- Wordle-style full-word input
+- Score tracking & streaks
+- Flask-based web version
 
 ---
 
-## 🧑‍💻 Author
+## 👨‍💻 Author
 
-Made with 💻 by [Manav Bhuta](https://github.com/bhutamanav11)
+Built with 💻 by **Manav Bhuta**  
+GitHub: [@bhutamanav11](https://github.com/bhutamanav11)
 
 ---
 
