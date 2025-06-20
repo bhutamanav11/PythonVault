@@ -45,7 +45,7 @@ cd word_guesser
 2. **Run the game**:
 ```
 
-python hangman.py
+python word_guesser.py
 
 ```
 
