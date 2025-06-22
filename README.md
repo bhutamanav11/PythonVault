@@ -86,13 +86,6 @@ A self-coded terminal game (`word_guesser.py`) where:
 | `Jupyter`      | Interactive notebooks |
 
 ---
-
-## 📸 Gallery (Add Screenshots If Desired)
-
-> (Optional) Add snapshots of your notebook outputs, confusion matrices, terminal game, etc.
-
----
-
 ## 🧾 License
 
 This project is licensed under the **MIT License** — feel free to use, modify, and build upon it.
