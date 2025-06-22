@@ -1,6 +1,4 @@
----
 
-```markdown
 <h1 align="center">🔐 PythonVault</h1>
 
 <p align="center">
@@ -21,24 +19,22 @@
 ## 📁 Repository Structure
 
 ```
-
 PythonVault/
 │
-├── python\_ml/           # Machine Learning practice notebooks
+├── python_ml/           # Machine Learning practice notebooks
 │   ├── Support Vector Machine/
 │   ├── NaiveBayes/
-│   ├── decision\_trees/
-│   ├── logistics\_reg/
-│   ├── simple\_linear\_reg/
-│   ├── multivariate\_reg/
-│   ├── one\_hot\_encoding/
-│   └── use\_case\_1 Rock vs Mine/
+│   ├── decision_trees/
+│   ├── logistics_reg/
+│   ├── simple_linear_reg/
+│   ├── multivariate_reg/
+│   ├── one_hot_encoding/
+│   └── use_case_1 Rock vs Mine/
 │
 ├── Terminal Game/
-│   └── word\_guesser.py  # CLI-based terminal guessing game
+│   └── word_guesser.py  # CLI-based terminal guessing game
 │
 └── README.md            # You are here 💬
-
 ```
 
 ---
@@ -120,9 +116,3 @@ If you found this repo helpful:
 - Star ⭐ it to show some love
 - Fork 🍴 it to remix your own versions
 - Share it 💬 with someone learning ML or Python
-
----
-
-```
-
----
