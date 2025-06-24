@@ -1,4 +1,6 @@
+---
 
+```markdown
 <h1 align="center">🔐 PythonVault</h1>
 
 <p align="center">
@@ -10,7 +12,7 @@
 
 <p align="center">
   <strong>A powerful and practical vault of core Python projects —</strong><br>
-  from foundational machine learning algorithms to interactive terminal games.<br>
+  from foundational machine learning algorithms to interactive terminal games and real-world data analysis.<br>
   Built for 🔎 clarity, 💡 understanding, and 🧠 hands-on learning.
 </p>
 
@@ -19,22 +21,27 @@
 ## 📁 Repository Structure
 
 ```
+
 PythonVault/
 │
-├── python_ml/           # Machine Learning practice notebooks
+├── python\_ml/           # Machine Learning practice notebooks
 │   ├── Support Vector Machine/
 │   ├── NaiveBayes/
-│   ├── decision_trees/
-│   ├── logistics_reg/
-│   ├── simple_linear_reg/
-│   ├── multivariate_reg/
-│   ├── one_hot_encoding/
-│   └── use_case_1 Rock vs Mine/
+│   ├── decision\_trees/
+│   ├── logistics\_reg/
+│   ├── simple\_linear\_reg/
+│   ├── multivariate\_reg/
+│   ├── one\_hot\_encoding/
+│   └── use\_case\_1 Rock vs Mine/
+│
+├── EDA/                 # Exploratory Data Analysis projects
+│   └── Amazon Bestsellers EDA.ipynb
 │
 ├── Terminal Game/
-│   └── word_guesser.py  # CLI-based terminal guessing game
+│   └── word\_guesser.py  # CLI-based terminal guessing game
 │
 └── README.md            # You are here 💬
+
 ```
 
 ---
@@ -42,10 +49,11 @@ PythonVault/
 ## 🔍 What You'll Learn
 
 ✅ Core ML algorithms (SVM, Logistic/Naive Bayes, Decision Trees, Linear Regression)  
-✅ Real-world datasets (Iris, Digits, Sonar Rock vs Mine, etc.)  
+✅ Real-world datasets (Iris, Digits, Sonar Rock vs Mine, Amazon Bestsellers, etc.)  
 ✅ Preprocessing essentials (One-Hot Encoding, feature engineering)  
-✅ Hyperparameter tuning (`C`, `gamma`, kernels, etc.)  
-✅ Logic building through a fun terminal game
+✅ Exploratory Data Analysis (distributions, trends, correlations)  
+✅ Logic building through a fun terminal game  
+✅ Clean, visual storytelling with Python & Jupyter
 
 ---
 
@@ -66,6 +74,16 @@ PythonVault/
 
 ---
 
+### 📊 `EDA/` — Exploratory Data Analysis
+
+Real-world data visualized, analyzed, and explained with Python.
+
+| Notebook | Highlights |
+|----------|------------|
+| `Amazon Bestsellers EDA.ipynb` | Full EDA with insights on genres, authors, prices, reviews, trends, heatmaps, and a custom scoring metric to rank books |
+
+---
+
 ### 🎮 `Terminal Game/` — CLI Fun with Python
 
 A self-coded terminal game (`word_guesser.py`) where:
@@ -83,9 +101,11 @@ A self-coded terminal game (`word_guesser.py`) where:
 | `scikit-learn` | ML algorithms |
 | `pandas`       | Data processing |
 | `matplotlib`   | Plotting & visualization |
+| `seaborn`      | Statistical visuals |
 | `Jupyter`      | Interactive notebooks |
 
 ---
+
 ## 🧾 License
 
 This project is licensed under the **MIT License** — feel free to use, modify, and build upon it.
@@ -106,6 +126,9 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 ## ⭐ Want to Support?
 
 If you found this repo helpful:
-- Star ⭐ it to show some love
-- Fork 🍴 it to remix your own versions
-- Share it 💬 with someone learning ML or Python
+- Star ⭐ it to show some love  
+- Fork 🍴 it to remix your own versions  
+- Share it 💬 with someone learning ML, EDA, or Python!
+
+---
+```
