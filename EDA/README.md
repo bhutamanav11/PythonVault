@@ -86,7 +86,7 @@ This analysis reveals:
 
  📬 Contact
 
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/) if you'd like to collaborate or have questions!
+Feel free to reach out via [LinkedIn](www.linkedin.com/in/manav-bhuta) if you'd like to collaborate or have questions!
 
 ---
 ```
