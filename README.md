@@ -1,4 +1,5 @@
 
+
 ---
 
 ```markdown
@@ -25,7 +26,7 @@
 
 PythonVault/
 │
-├── python\_ml/           # Machine Learning practice notebooks
+├── python\_ml/             # Machine Learning practice notebooks
 │   ├── Support Vector Machine/
 │   ├── NaiveBayes/
 │   ├── decision\_trees/
@@ -35,13 +36,13 @@ PythonVault/
 │   ├── one\_hot\_encoding/
 │   └── use\_case\_1 Rock vs Mine/
 │
-├── EDA/                 # Exploratory Data Analysis projects
+├── EDA/                   # Exploratory Data Analysis projects
 │   └── Amazon Bestsellers EDA.ipynb
 │
 ├── Terminal Game/
-│   └── word\_guesser.py  # CLI-based terminal guessing game
+│   └── word\_guesser.py    # CLI-based terminal guessing game
 │
-└── README.md            # You are here 💬
+└── README.md              # You are here 💬
 
 ```
 
@@ -88,8 +89,8 @@ Real-world data visualized, analyzed, and explained with Python.
 ### 🎮 `Terminal Game/` — CLI Fun with Python
 
 A self-coded terminal game (`word_guesser.py`) where:
-- User guesses a hidden word in limited attempts
-- Shows how control flow, loops, and strings can make mini-games
+- User guesses a hidden word in limited attempts  
+- Shows how control flow, loops, and strings can make mini-games  
 - Great for strengthening logic skills with fun 🕹️
 
 ---
@@ -98,12 +99,12 @@ A self-coded terminal game (`word_guesser.py`) where:
 
 | Tool           | Use |
 |----------------|-----|
-| `Python 3.9+`  | Core language |
-| `scikit-learn` | ML algorithms |
-| `pandas`       | Data processing |
-| `matplotlib`   | Plotting & visualization |
-| `seaborn`      | Statistical visuals |
-| `Jupyter`      | Interactive notebooks |
+| Python 3.9+    | Core language |
+| scikit-learn   | ML algorithms |
+| pandas         | Data processing |
+| matplotlib     | Plotting & visualization |
+| seaborn        | Statistical visuals |
+| Jupyter        | Interactive notebooks |
 
 ---
 
@@ -129,7 +130,10 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 If you found this repo helpful:
 - Star ⭐ it to show some love  
 - Fork 🍴 it to remix your own versions  
-- Share it 💬 with someone learning ML, EDA, or Python!
+- Share 💬 it with someone learning ML, EDA, or Python!
 
 ---
 ```
+
+---
+
