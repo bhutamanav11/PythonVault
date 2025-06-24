@@ -76,8 +76,6 @@ This analysis reveals:
 
 ---
 
----
-
  🧩 Future Ideas
 
 - Genre + Year heatmaps  
