@@ -1,4 +1,3 @@
-Sure Manav, here's a short, simple explanation in your own words — no fancy README formatting:
 
 ---
 
@@ -12,4 +11,3 @@ This repo is like my Python lab. It has three main parts:
 
 ---
 
-It’s all about learning by doing — no huge frameworks or libraries, just solid Python, pandas, scikit-learn, and matplotlib.
