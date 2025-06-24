@@ -76,17 +76,6 @@ This analysis reveals:
 
 ---
 
- 📂 Folder Structure
-
-```
-
-📦bestseller-eda
-┣ 📄 bestsellers\_with\_categories.csv
-┣ 📄 Bestseller\_EDA.ipynb
-┣ 📄 README.md
-
-```
-
 ---
 
  🧩 Future Ideas
